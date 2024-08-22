@@ -5,7 +5,7 @@ class Book(BaseModel):
     name: str
     standard: str
     language_medium: str
-    author_id : int = 2
+    author_id : int = 3
     class Config:
         from_attributes = True
 
